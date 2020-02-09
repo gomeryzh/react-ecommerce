@@ -39,8 +39,6 @@ class App extends Component {
               ...snapshot.data()
             });
         });
-
-
       } else {
         setCurrentUser(userAuth);
       }
